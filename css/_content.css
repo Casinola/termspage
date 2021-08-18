@@ -1,0 +1,16 @@
+.content {
+  margin-bottom: 20px;
+}
+.content .content__heading {
+  margin-bottom: 10px;
+}
+
+.content .content__detail {
+  line-height: 1.8rem;
+}
+
+.list {
+  padding: 10px 0 10px 40px;
+  line-height: 1.5;
+  font-size: 18px;
+}

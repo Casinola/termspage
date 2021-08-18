@@ -1,0 +1,64 @@
+:root {
+  --black: #000;
+  --gray: rgba(236, 236, 236, 0.6);
+  --white: #fff;
+  --red: #c80000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  color: var(--black);
+  margin: 0;
+  background: var(--white);
+}
+
+.container {
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.ext-link {
+  color: var(--red);
+  text-decoration: underline;
+}
+
+.ext-link:hover {
+  background: var(--red);
+  color: var(--white);
+}

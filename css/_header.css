@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 72px;
+  background: var(--black);
+}
+
+.header .logo:hover {
+  cursor: pointer;
+}
+
+.header .logo img {
+  height: 42px;
+  width: 155px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__links {
+  color: var(--white);
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+.navbar__links:hover {
+  color: var(--red);
+}
+
+.navbar .active {
+  color: var(--red);
+}

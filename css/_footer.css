@@ -1,0 +1,14 @@
+.footer {
+  width: 100%;
+  height: 80px;
+  background: var(--black);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .footer__image img {
+  width: 77px;
+  height: 20px;
+}
