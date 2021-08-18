@@ -449,20 +449,7 @@ If you have any questions about this Privacy Policy, please contact our Data Pro
     else previousTab = previousTab.replace("-page", "").substr(1);
     document.getElementById(previousTab).style.display = "block";
     document.getElementById(previousTab+"-link").classList.add("active");
-    // function openTab(evt, cityName) {
-    //     console.log(window.location)
-    //     var i, tabcontent, tablinks;
-    //     tabcontent = document.getElementsByClassName("tabcontent");
-    //     for (i = 0; i < tabcontent.length; i++) {
-    //     tabcontent[i].style.display = "none";
-    //     }
-    //     tablinks = document.getElementsByClassName("tablinks");
-    //     for (i = 0; i < tablinks.length; i++) {
-    //     tablinks[i].className = tablinks[i].className.replace(" active", "");
-    //     }
-    //     document.getElementById(cityName).style.display = "block";
-    //     evt.currentTarget.classList.add("active");
-    // }
+
     function openTab(evt, tab) {
       // Displays the required Tab
       document.getElementById(previousTab).style.display = "none";
