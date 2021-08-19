@@ -33,3 +33,7 @@
 .navbar .active {
   color: var(--red);
 }
+
+#label-menu {
+  display: none;
+}

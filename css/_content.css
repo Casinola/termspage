@@ -13,4 +13,5 @@
   padding: 10px 0 10px 40px;
   line-height: 1.5;
   font-size: 18px;
+  overflow: auto;
 }
