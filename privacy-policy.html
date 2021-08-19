@@ -8,13 +8,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <title>CasinoLA</title>
+  <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css" integrity="sha512-P9vJUXK+LyvAzj8otTOKzdfF1F3UYVl13+F8Fof8/2QNb8Twd6Vb+VD52I7+87tex9UXxnzPgWA3rH96RExA7A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+  <title>CasinoLA</title>
 </head>
 <body>
+    <div class="wrapper">
     <header class="header">
         <div class="logo">
       <a href="index.html"><img src="images/logo.png" alt="Casinola Poker"></a>
         </div>
+        <label class="menu-icon" for="label-menu">
+            <i class="fa fa-bars"></i>
+              </label>
+          <input type="checkbox" name="checkbox" id="label-menu">
         <nav class="navbar">
             <a id="about-link" href="index.html" class="navbar__links" onclick="openTab(event, 'about')">About</a>
             <a id="terms-link" href="term-and-condition.html" class="navbar__links" onclick="openTab(event, 'terms')">Terms and Conditions</a>
@@ -145,7 +153,7 @@
                                     </li>
                                     <li class="item">For Facebook:  <a href="https://www.facebook.com/help/568137493302217" class="ext-link">https://www.facebook.com/help/568137493302217.</a></li>
                                     <li class="item">For Twitter:  <a href="https://help.twitter.com/en/safety-and-security/privacy-controls-for tailored-ads" class="ext-link">https://help.twitter.com/en/safety-and-security/privacy-controls-for tailored-ads.</a></li>
-                                    <li class="item">For Unity: <a href="https://unity3d.com/legal/privacypolicy#:~:text=You%20can%20opt%2Dout%20then,you%20in%20that%20particular %20 " class="ext-link"> https://unity3d.com/legal/privacypolicy#:~:text=You%20can%20opt%2Dout%20then,you%20in%20that%20particular %20 </a>app).&text=Unity%20gets%20these%20ads%20from%20third%2Dparty%20 net works.</li>
+                                    <li class="item">For Unity: <a href="https://unity3d.com/legal/privacypolicy#:~:text=You%20can%20opt%2Dout%20then,you%20in%20that%20particular%20 app).&text=Unity%20gets%20these%20ads%20from%20third%2Dparty%20" class="ext-link"> https://unity3d.com/legal/privacypolicy#:~:text=You%20can%20opt%2Dout%20then,you%20in%20that%20particular%20 app).&text=Unity%20gets%20these%20ads%20from%20third%2Dparty%20</a> net works.</li>
                                 </ul>
                             </p>
                         </div>
@@ -296,6 +304,7 @@
                         </div>
                         
                     </footer>
+                </div>
                 </body>
                 </html>
                 

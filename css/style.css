@@ -53,6 +53,12 @@ p {
   font-size: 18px;
 }
 
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .ext-link {
   color: var(--red);
   text-decoration: underline;
@@ -125,6 +131,7 @@ p {
 /* footer */
 
 .footer {
+  margin-top: auto;
   width: 100%;
   height: 80px;
   background: var(--black);
@@ -174,7 +181,16 @@ p {
   }
 
   .navbar {
-    display: none;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: 0.3s linear;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 64px;
+    width: 100%;
   }
 
   .navbar__links {
@@ -191,15 +207,9 @@ p {
   }
 
   #label-menu:checked + .navbar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background: var(--black);
     color: white;
-    position: absolute;
-    left: 0;
-    top: 64px;
-    width: 100%;
+    transform: scaleY(1);
   }
 
   .navbar .navbar__links {
