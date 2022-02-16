@@ -23,32 +23,17 @@
 		</label>
     <input type="checkbox" name="checkbox" id="label-menu">
     <nav class="navbar">
-      <a id="about-link" href="index.html" class="navbar__links active" onclick="openTab(event, 'about')">About</a>
-      <a id="terms-link" href="term-and-condition.html" class="navbar__links" onclick="openTab(event, 'terms')">Terms and Conditions</a>
-      <a id="privacy-link"href="privacy-policy.html" class="navbar__links" onclick="openTab(event, 'privacy')">Privacy Policy</a>
+      <a id="about-link" href="index.html" class="navbar__links active" ">About</a>
+      <a id="terms-link" href="term-and-condition.html" class="navbar__links" >Terms and Conditions</a>
+      <a id="privacy-link"href="privacy-policy.html" class="navbar__links">Privacy Policy</a>
     </nav>
   </header>
   <!-- about-page -->
   <section id="about" class="container">
     <div class="content">
-      <h1 class="content__heading">What is CasinoLA?</h1>
-      <p class="content__detail">CasinoLA is a free mobile gaming software application for social card gaming enthusiasts who enjoy playing poker with their friends or poker club members.<br/>
-        This application reduces your need for cards, chips, tables, and manual game records while providing you and your table of poker players, the ability to play the game anytime, anywhere.<br/><br/>
-        CasinoLA is catered to users' needs and feedback, and the team has, across the years, committed to providing the most accurate & realistic poker experience. Today, players can enjoy a 
-        series of the world’s most popular poker game formats including Texas Hold'em, Omaha, OFC and much more. Single-table, and Multi-table tournaments are available for all these games.<br/><br/>
-        Playing on CasinoLA is virtually identical to playing cards in a real casino, giving you the option to play with your friends only or through the public gaming space.<br/>
-        
-        Experience real poker on a virtual platform today!
-      </p>
-    </div>
-    
-    <div class="content">
-      <h2 class="content__heading">Background</h2>
+      <h1 class="content__heading">About</h1>
       <p class="content__detail">
-        CasinoLA was created by PT.farm. The founder has put a team together of a group industry professionals and started from the ground up.<br/><br/>
-        PT.farm has a strong passion for mobile applications and poker, particularly for social gaming and allowing friends, clubs and casual gamers to play the game across the world.<br/> <br/> 
-        As serious poker players, the team was motivated to start an application that would satisfy the needs of millions of poker players worldwide. CasinoLA was born to provide the ultimate virtual
-        solution for people who demand a high standard poker app that looks, feels and plays like the real thing.
+        This is About Page.
       </p>
     </div>
   </section>
@@ -62,23 +47,4 @@
 </div>
 </body>
 
-<script>
-  var previousTab = window.location.hash;
-  if (!previousTab) previousTab = "terms";
-  else previousTab = previousTab.replace("-page", "").substr(1);
-  document.getElementById(previousTab).style.display = "block";
-  document.getElementById(previousTab+"-link").classList.add("active");
-  
-  function openTab(evt, tab) {
-    // Displays the required Tab
-    document.getElementById(previousTab).style.display = "none";
-    document.getElementById(tab).style.display = "block";
-    
-    //Change the active status of the Tab Navigation Link
-    document.getElementById(previousTab+"-link").classList.remove("active");
-    document.getElementById(tab+"-link").classList.add("active");
-    
-    previousTab = tab;
-  }
-</script>
 </html>
